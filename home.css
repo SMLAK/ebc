@@ -1,0 +1,136 @@
+body{
+    
+    background: linear-gradient(to left top, rgb( 17, 24, 42), rgb(126, 80, 170), rgb(239, 64, 229));
+    
+}
+    
+
+
+
+
+a.btn{
+    background-color: white;
+    color: black;
+    width: 90px;
+    height: 30px;
+
+
+}
+
+.col-12{
+    padding-bottom: 50px;
+    padding-left: 1px;
+    
+}
+
+.input{
+    border-radius: 9px;
+    align-items: center;
+    
+}
+
+.email-signup button{
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    color:rgb(126, 80, 170) ;
+    font-size: 15px;
+    cursor: pointer;
+    width: 10vw ;
+    height: 3vw;
+    font-size: 1vw;
+    
+}
+
+.email-signup button:hover{
+    background-color: rgb(239, 64, 229);
+    color: white;
+}
+
+.email-signup input{
+    flex: 1;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    color:rgb(1, 64, 100);
+    font-size:6vw;
+    padding-left: 10px;
+
+    
+}
+
+
+#hero{
+
+    background: url(./imghome/bgbgbg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+   
+}
+#homeh1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+   
+}
+.container p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+}
+
+hr{
+    width:100%;
+    height:10px; 
+    background-color:white;
+    
+    
+}
+
+/* content2 */
+
+.left-section h2{
+    font-size:4vw;
+    text-align: cente;
+    font-family: monospace;
+    float: right;
+}
+
+
+.img-fluid{
+    width: 25%;
+    float:right;
+    margin-top:1px;
+
+
+}
+
+/* content3 */
+
+.image-fluid{
+    width: 25%;
+    float:left ;
+    margin-top:1px;
+
+
+}
+
+.right-section h2{
+    font-size:4vw;
+    align-items:flex-start;
+    text-align: cente;
+    font-family: monospace;
+    float: left;
+}
+
+.social-link i img{
+    padding: auto;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+    float: right;
+    margin: 10px;
+    
+
+
+}

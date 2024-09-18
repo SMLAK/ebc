@@ -1,0 +1,144 @@
+
+
+.collapse{
+    justify-content: flex-end;
+}
+
+
+.container{
+    background-color: transparent;
+}
+.nav-item{
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
+
+
+/* 2nd navs */
+
+.nav-content{
+
+    width: calc(100vw -240px);
+}
+
+.nav-wraper{
+    overflow: scroll;
+    background-color: black;
+    display: flex;
+    padding-left: 14px;
+    border-top: 1px solid rgb(103, 2, 114);
+    border-bottom: 1px solid rgb(103, 2, 114);
+   
+}
+.nav-wraper::-webkit-scrollbar{
+    height: 0;
+}
+
+.navs{
+    opacity:1 ;
+    height: 30px;
+    margin: 5px 6px;
+    background-color:rgb(25, 24, 25);
+    padding: 2px 12px;
+    border-radius: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    transition:.5s ;
+}
+
+.navs:hover{
+    background-color: rgb(145, 35, 158);
+}
+
+
+.row-list{
+    width: 100%;
+    object-fit: contain;
+    max-height: 150px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    background-color: hwb(150 1% 95%);
+    color: white;
+    box-shadow: 1px 1px 20px 1px black;
+    flex: 1 1 250px;
+    margin: 1em;
+    border-radius: 5px;
+ 
+}
+
+.row-lists{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    
+}
+
+.row-list:hover {
+    transform: scale(1.08);
+}
+
+.row-lists::-webkit-scrollbar {
+    display: none;
+}
+
+.list-large{
+    max-height: 250px;
+}
+
+.list-large:hover{
+    transform: scale(1.08);
+}
+
+.row h2{
+    font-family: sans-serif;
+}
+.row-lists h1{
+    font-family: cursive;
+    font-size: small;
+    display: inline-flex;
+}
+.item{
+   max-height: 250px;
+   width: 160px;
+   min-width: 140px;
+   background-color: rgb(251, 251, 251);
+   cursor: pointer;
+   border-radius: 6px;
+
+}
+.item img{
+width: 100%;
+border-radius: 6px;
+margin-bottom:10px;
+  
+
+}
+.h2{
+    padding-left: 1000px;
+}
+
+
+.card:hover{
+
+    transform: scale(1.08);
+}
+#k{
+   flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+   white-space: nowrap;
+}
+
+#k::-webkit-scrollbar {
+    display: none;
+}
+
+.card-img-top{
+    border-radius:9px;
+    object-fit:inherit;
+    
+}
